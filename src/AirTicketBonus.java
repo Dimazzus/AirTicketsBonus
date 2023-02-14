@@ -9,9 +9,9 @@ public class AirTicketBonus {
         // Рассчитываете количество бонусных миль, используя
         // значения заведённых переменных. Ответ сохраняете в
         // новую переменную и выводите на экран
-        int amount = 18_844;
-        int x = 20;
-        int i = amount / x;
-        System.out.println("Ваши бонусы: " + i);
+        int totalAmount = 18_844;
+        int bonusAmount = 20;
+        int bonus = totalAmount / bonusAmount;
+        System.out.println("Ваши бонусы: " + bonus);
     }
 }
